@@ -591,7 +591,7 @@ section {
 }
 
 .section-title {
-  text-align: justify;
+  text-align: center;
   padding-bottom: 20px;
 }
 
@@ -1805,4 +1805,8 @@ section {
     text-align: center;
     padding: 2px 0;
   }
+}
+
+.text-align {
+  text-align: justify;
 }
