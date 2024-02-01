@@ -980,9 +980,9 @@ section {
   position: relative;
 }
 
-.custom-size-gs{
-  width: 70%;
-  height: 50%;
+.custom-gs{
+  width: 60px;
+  height: auto;
 }
 
 .testimonials::before {
