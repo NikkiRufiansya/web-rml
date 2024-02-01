@@ -990,6 +990,11 @@ section {
   height: auto;
 }
 
+.custom-acx{
+  width: 250px;
+  height: auto;
+}
+
 .testimonials::before {
   content: "";
   position: absolute;
