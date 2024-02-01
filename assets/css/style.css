@@ -980,6 +980,11 @@ section {
   position: relative;
 }
 
+.custom-size{
+  width: 50%;
+  height: 50%;
+}
+
 .testimonials::before {
   content: "";
   position: absolute;
