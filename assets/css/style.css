@@ -985,6 +985,11 @@ section {
   height: auto;
 }
 
+.custom-apx{
+  width: 250px;
+  height: auto;
+}
+
 .testimonials::before {
   content: "";
   position: absolute;
