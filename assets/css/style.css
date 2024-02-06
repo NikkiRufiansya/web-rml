@@ -27,7 +27,7 @@ a:hover {
 h1,
 h2,
 h3,
-h4,
+h4
 h5,
 h6 {
   font-family: "Roboto", sans-serif;
@@ -116,7 +116,7 @@ h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #106eea;
+  background: #11009E;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -187,7 +187,7 @@ h6 {
 }
 
 #header .logo a span {
-  color: #106eea;
+  color: black;
 }
 
 #header .logo img {
@@ -584,6 +584,7 @@ h6 {
 section {
   padding: 60px 0;
   overflow: hidden;
+  color: #11009E;
 }
 
 .section-bg {
@@ -615,7 +616,7 @@ section {
 }
 
 .section-title h3 span {
-  color: #106eea;
+  color: black;
 }
 
 .section-title p {
@@ -673,6 +674,7 @@ section {
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
     display: block !important;
+    color: #11009E;
   }
 
   .breadcrumbs ol {
@@ -731,6 +733,7 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+  color: black;
 }
 
 .featured-services .title a {
@@ -962,7 +965,7 @@ section {
 
 .services .icon-box:hover h4 a,
 .services .icon-box:hover .icon i {
-  color: #106eea;
+  color: black;
 }
 
 .services .icon-box:hover .icon {
@@ -991,8 +994,22 @@ section {
 }
 
 .custom-acx{
-  width: 200px;
+  width: 150px;
   height: auto;
+}
+
+.custom-inv{
+  width: 250px;
+  height: auto;
+}
+
+.custom-spo{
+  width: 250px;
+  height: auto;
+}
+
+h4 {
+  color: white;
 }
 
 .testimonials::before {
@@ -1379,7 +1396,7 @@ section {
 }
 
 .pricing .box h4 span {
-  color: #bababa;
+  color: blue;
   font-size: 16px;
   font-weight: 300;
 }
@@ -1721,7 +1738,7 @@ section {
 }
 
 #footer .footer-top .footer-contact h3 span {
-  color: #106eea;
+  color: black;
 }
 
 #footer .footer-top .footer-contact p {
