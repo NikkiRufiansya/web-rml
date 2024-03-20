@@ -80,7 +80,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #106eea;
+  background: #11009E;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -94,7 +94,7 @@ h6 {
 }
 
 .back-to-top:hover {
-  background: #3284f1;
+  background: #11009E;
   color: #fff;
 }
 
@@ -272,7 +272,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #106eea;
+  color: #11009E;
 }
 
 .navbar .dropdown ul {
@@ -306,7 +306,7 @@ h6 {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover>a {
-  color: #106eea;
+  color: #11009E;
 }
 
 .navbar .dropdown:hover>ul {
@@ -415,7 +415,7 @@ h6 {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover>a {
-  color: #106eea;
+  color: #11009E;
 }
 
 .navbar-mobile .getstarted,
@@ -450,7 +450,7 @@ h6 {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover>a {
-  color: #106eea;
+  color: #11009E;
 }
 
 .navbar-mobile .dropdown>.dropdown-active {
@@ -465,6 +465,33 @@ h6 {
   height: 75vh;
   background: url("../img/hero-bg.jpg") top left;
   background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#hero-gs {
+  width: 100%;
+  height: 75vh;
+  background: url("../img/testguardsquare.jpg") top left;
+  background-size: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#hero-apx {
+  width: 100%;
+  height: 75vh;
+  background: url("../img/appknox-bg.png") right center;
+  background-size: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#hero-cvss {
+  width: 100%;
+  height: 75vh;
+  background: url("../img/CVSS.png") right center;
+  background-size: center;
   background-repeat: no-repeat;
   position: relative;
 }
@@ -516,6 +543,7 @@ h6 {
   color: #fff;
   background: #11009E;
 }
+
 
 #hero .btn-get-started:hover {
   background: #11009E;
@@ -606,7 +634,7 @@ section {
   padding: 8px 20px;
   margin: 0;
   background: #e7f1fd;
-  color: #106eea;
+  color: #11009E;
   display: inline-block;
   text-transform: uppercase;
   border-radius: 50px;
@@ -674,8 +702,19 @@ section {
   content: "/";
 }
 
+.custom-p{
+  color: white; 
+  font-size: 35px; 
+  font-weight: bold;
+}
+
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
+    display: block !important;
+    color: red;
+  }
+
+  .breadcrumbs .d-flex-gs {
     display: block !important;
     color: #11009E;
   }
@@ -986,18 +1025,19 @@ section {
   position: relative;
 }
 
-.custom-gs{
-  width: 250px;
+.custom-dx{
+  width: 90px;
+  height: auto;
+  border: none;
+}
+
+.custom-ix{
+  width: 90px;
   height: auto;
 }
 
-.custom-apx{
-  width: 250px;
-  height: auto;
-}
-
-.custom-acx{
-  width: 150px;
+.custom-tc{
+  width: 90px;
   height: auto;
 }
 
@@ -1007,6 +1047,16 @@ section {
 }
 
 .custom-spo{
+  width: 250px;
+  height: auto;
+}
+
+.custom-apx{
+  width: 250px;
+  height: auto;
+}
+
+.custom-gs{
   width: 250px;
   height: auto;
 }
@@ -1548,7 +1598,7 @@ h4 {
 
 .contact .info-box i {
   font-size: 32px;
-  color: #106eea;
+  color: #11009E;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #b3d1fa;
@@ -1639,7 +1689,7 @@ h4 {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #106eea;
+  background: #11009E;
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -1648,7 +1698,7 @@ h4 {
 }
 
 .contact .php-email-form button[type=submit]:hover {
-  background: #3b8af2;
+  background: #11009E;
 }
 
 @keyframes animate-loading {
@@ -1844,4 +1894,82 @@ h4 {
 
 .text-align {
   text-align: justify;
+}
+
+/*-- Horizontal Stepper --*/
+.steps {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.step-button[aria-expanded="true"] {
+  width: 60px;
+  height: 60px;
+  background-color: var(--prm-color);
+  color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .steps {
+    flex-direction: column;
+  }
+}
+
+.done {
+  background-color: var(--prm-color);
+  color: #fff;
+}
+.step-item {
+  z-index: 10;
+  text-align: center;
+}
+#progress {
+-webkit-appearance:none;
+  position: absolute;
+  width: 95%;
+  z-index: 5;
+  height: 10px;
+  margin-left: 18px;
+  margin-bottom: 18px;
+}
+/* to customize progress bar */
+#progress::-webkit-progress-value {
+  background-color: var(--prm-color);
+  transition: .5s ease;
+}
+#progress::-webkit-progress-bar {
+  background-color: var(--prm-gray);
+
+}
+
+.kotak-custom {
+  width: auto;
+  height: 50px;
+  text-align: center;
+  color: white;
+  background-color: #11009E;
+  border-radius: 10px;
+  vertical-align: middle;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  cursor: pointer; /* Ubah kursor menjadi pointer saat mengarahkan ke tombol */
+  place-items: center;
+   /* Sesuaikan dengan ukuran tombol yang diinginkan */
+  /* Properti lainnya sesuai kebutuhan */
+}
+
+.kotak-custom:hover {
+  color: white; /* Warna teks tetap putih saat kursor diarahkan */
+}
+
+.kotak-custom button{
+  background-color: transparent; /* Jadikan latar belakang tombol transparan */
+  border: none;
+}
+
+.button-custom{
+  color: white;
 }
