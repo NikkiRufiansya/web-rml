@@ -487,6 +487,24 @@ h6 {
   position: relative;
 }
 
+#hero-acx {
+  width: 100%;
+  height: 75vh;
+  background: url("../img/acx hero.png") right center;
+  background-size: 600px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#hero-inv {
+  width: 100%;
+  height: 75vh;
+  background: url("../img/invicti bg.png"), linear-gradient(rgba(5, 5, 5, 5), rgba(5, 5, 5, 5)), center left;
+  background-size: 1950px;
+  background-repeat: no-repeat;
+  position: sticky;
+}
+
 #hero-cvss {
   width: 100%;
   height: 75vh;
