@@ -496,6 +496,16 @@ h6 {
   position: relative;
 }
 
+#hero-sps {
+  width: 100%;
+  height: auto;
+  background: url("../img/firewallhero.png") top center;
+  background-position: center 120px;
+  background-size: 1100px;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
 #hero-inv {
   width: 100%;
   height: 75vh;
