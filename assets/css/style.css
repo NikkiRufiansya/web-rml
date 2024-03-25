@@ -1968,23 +1968,20 @@ h4 {
 }
 
 .kotak-custom {
-  width: auto;
-  height: 50px;
-  text-align: center;
-  color: white;
-  background-color: #11009E;
-  border-radius: 10px;
-  vertical-align: middle;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
-  display: flex;
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  color: black;
+  background: #fff;
+  box-shadow: 0 0 29px 0 rgba(68, 88, 144, 0.12);
+  transition: all 0.3s ease-in-out;
+  border-radius: 8px;
+  z-index: 1;
   cursor: pointer; /* Ubah kursor menjadi pointer saat mengarahkan ke tombol */
-  place-items: center;
-   /* Sesuaikan dengan ukuran tombol yang diinginkan */
-  /* Properti lainnya sesuai kebutuhan */
 }
 
 .kotak-custom:hover {
-  color: white; /* Warna teks tetap putih saat kursor diarahkan */
+  color: black; /* Warna teks tetap putih saat kursor diarahkan */
 }
 
 .kotak-custom button{
