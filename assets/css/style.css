@@ -472,7 +472,7 @@ h6 {
 #hero-gs {
   width: 100%;
   height: 75vh;
-  background: url("../img/testguardsquare.jpg") top left;
+  background: url("../img/testguardsquare.jpg") left top;
   background-size: center;
   background-repeat: no-repeat;
   position: relative;
@@ -2012,4 +2012,20 @@ h4 {
 }
 
 .box-stepper:hover{ /* Warna teks tetap putih saat kursor diarahkan */
+}
+
+.img-vulner{
+  max-width: 100%; height: auto; display: block; margin: auto;
+}
+
+.img-heroacx{
+  max-width: 100%; height: auto; display: block; margin: auto;
+}
+
+.img-herogs{
+  max-width: 100%; 
+  height: auto; 
+  display: block; 
+  margin: auto;
+  float: right;
 }
