@@ -497,8 +497,10 @@ h6 {
 }
 
 #hero-sps {
-  width: 100%;
+  max-width: 100%;
   height: auto;
+  display: block;
+  margin: auto;
   background: url("../img/firewallhero.png") top center;
   background-position: center 120px;
   background-size: 1100px;
@@ -508,11 +510,10 @@ h6 {
 
 #hero-inv {
   width: 100%;
-  height: 75vh;
-  background: url("../img/invicti bg.png"), linear-gradient(rgba(5, 5, 5, 5), rgba(5, 5, 5, 5)), center left;
-  background-size: 1950px;
-  background-repeat: no-repeat;
-  position: sticky;
+  height: auto;
+  background: url("../img/invicti bg.png"), linear-gradient(rgba(5, 5, 5, 5), rgba(5, 5, 5, 5)),;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 #hero-cvss {
